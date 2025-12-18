@@ -17,7 +17,7 @@ class AppTheme {
         bodyMedium: GoogleFonts.inter(fontWeight: FontWeight.w500),
       ),
       scaffoldBackgroundColor: const Color(0xFFF7F8FA),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         color: Colors.white,
         surfaceTintColor: Colors.transparent,
@@ -31,3 +31,7 @@ class AppTheme {
     );
   }
 }
+
+
+
+
