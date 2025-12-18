@@ -15,8 +15,8 @@ dependencies:
   flutter_riverpod: ^2.5.1
   go_router: ^14.2.0
 
-  isar: ^3.1.8
-  isar_flutter_libs: ^3.1.8
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
   path_provider: ^2.1.4
 
   video_player: ^2.9.2
@@ -30,7 +30,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  isar_generator: ^3.1.8
+  isar_generator: ^3.1.0+1
   build_runner: ^2.4.12
 
 flutter:
@@ -40,3 +40,4 @@ flutter:
     - assets/icons/
     - assets/media/bundled/thumbs/
     - assets/media/bundled/previews/
+
