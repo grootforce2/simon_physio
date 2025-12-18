@@ -49,3 +49,10 @@ build/
 .dart_tool/
 windows/flutter/ephemeral/
 TOOLS/_PREMIUM_OUT/
+# Build / dist / local junk
+DIST/
+build/
+.dart_tool/
+windows/flutter/ephemeral/
+TOOLS/_PREMIUM_OUT/
+TOOLS/_BACKUPS/
