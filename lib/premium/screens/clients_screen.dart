@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class ClientsScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class ClientsScreen extends StatelessWidget {
       title: "Clients",
       subtitle: "CRM, injuries, goals, notes, and programs.",
       actions: [
-        FilledButton.icon(onPressed: () {}, icon: const Icon(Icons.person_add_alt_1_rounded), label: const Text("New Client")),
+        FilledButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\clients_screen.dart'); }, icon: const Icon(Icons.person_add_alt_1_rounded), label: const Text("New Client")),
       ],
       children: [
         Card(
@@ -21,14 +21,14 @@ class ClientsScreen extends StatelessWidget {
                 Expanded(
                   child: TextField(
                     decoration: InputDecoration(
-                      hintText: "Search clients (name, injury, phone, email)â€¦",
+                      hintText: "Search clients (name, injury, phone, email)Ã¢â‚¬¦",
                       prefixIcon: const Icon(Icons.search_rounded),
                       border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
                     ),
                   ),
                 ),
                 const SizedBox(width: 12),
-                OutlinedButton.icon(onPressed: () {}, icon: const Icon(Icons.filter_alt_rounded), label: const Text("Filter")),
+                OutlinedButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\clients_screen.dart'); }, icon: const Icon(Icons.filter_alt_rounded), label: const Text("Filter")),
               ],
             ),
           ),

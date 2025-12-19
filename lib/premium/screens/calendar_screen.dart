@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class CalendarScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class CalendarScreen extends StatelessWidget {
       title: "Calendar",
       subtitle: "Appointments, reminders, follow-ups.",
       actions: [
-        FilledButton.icon(onPressed: () {}, icon: const Icon(Icons.add_rounded), label: const Text("New Appointment")),
+        FilledButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\calendar_screen.dart'); }, icon: const Icon(Icons.add_rounded), label: const Text("New Appointment")),
       ],
       children: const [
         Card(

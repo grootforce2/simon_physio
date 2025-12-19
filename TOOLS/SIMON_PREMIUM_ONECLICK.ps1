@@ -1,91 +1,93 @@
-# SIMON_PREMIUM_ONECLICK.ps1
+﻿# SIMON_PREMIUM_ONECLICK.ps1
 # One script: Premium UI + Build Windows Release + Package Portable + ZIP
 # Works even if flutter isn't on PATH (detects puro, etc.)
 # Uses robocopy to avoid "file is being used" copy errors.
 
+    param(
+        [Parameter(Mandatory = $true)][string]$FlutterBat,
+        [Parameter(Mandatory = $true)][string]$WorkingDir,
+        [Parameter(Mandatory = $true)][string[]]$Args
+    )
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-function Say($m)  { Write-Host $m -ForegroundColor Cyan }
-function Ok($m)   { Write-Host $m -ForegroundColor Green }
+function Say($m) { Write-Host $m -ForegroundColor Cyan }
+function Ok($m) { Write-Host $m -ForegroundColor Green }
 function Warn($m) { Write-Host $m -ForegroundColor Yellow }
-function Die($m)  { Write-Host $m -ForegroundColor Red; throw $m }
+function Die($m) { Write-Host $m -ForegroundColor Red; throw $m }
 
 function Resolve-Root {
-  # Script is in ...\TOOLS\ so project root is parent folder
-  $toolsDir = Split-Path -Parent $PSCommandPath
-  return (Resolve-Path (Join-Path $toolsDir "..")).Path
+    # Script is in ...\TOOLS\ so project root is parent folder
+    $toolsDir = Split-Path -Parent $PSCommandPath
+    return (Resolve-Path (Join-Path $toolsDir "..")).Path
 }
 
 function Find-Flutter {
-  $candidates = @()
+    $candidates = @()
 
-  # 1) Environment override
-  if ($env:FLUTTER -and (Test-Path $env:FLUTTER)) { $candidates += $env:FLUTTER }
+    # 1) Environment override
+    if (${env}:FLUTTER -and (Test-Path ${env}:FLUTTER)) { $candidates += ${env}:FLUTTER }
 
-  # 2) puro stable default (your machine)
-  $puro = Join-Path $env:USERPROFILE ".puro\envs\stable\flutter\bin\flutter.bat"
-  if (Test-Path $puro) { $candidates += $puro }
+    # 2) puro stable default (your machine)
+    $puro = Join-Path ${env}:USERPROFILE ".puro\envs\stable\flutter\bin\flutter.bat"
+    if (Test-Path $puro) { $candidates += $puro }
 
-  # 3) PATH
-  $cmd = (Get-Command flutter -ErrorAction SilentlyContinue)
-  if ($cmd) {
-    $candidates += $cmd.Source
-  }
-
-  # 4) Search any puro envs quickly
-  $puroRoot = Join-Path $env:USERPROFILE ".puro\envs"
-  if (Test-Path $puroRoot) {
-    Get-ChildItem $puroRoot -Directory -ErrorAction SilentlyContinue | ForEach-Object {
-      $fb = Join-Path $_.FullName "flutter\bin\flutter.bat"
-      if (Test-Path $fb) { $candidates += $fb }
+    # 3) PATH
+    $cmd = (Get-Command flutter -ErrorAction SilentlyContinue)
+    if ($cmd) {
+        $candidates += $cmd.Source
     }
-  }
 
-  $candidates = $candidates | Select-Object -Unique
-  foreach ($c in $candidates) {
-    if (Test-Path $c) { return (Resolve-Path $c).Path }
-  }
+    # 4) Search any puro envs quickly
+    $puroRoot = Join-Path ${env}:USERPROFILE ".puro\envs"
+    if (Test-Path $puroRoot) {
+        Get-ChildItem $puroRoot -Directory -ErrorAction SilentlyContinue | ForEach-Object {
+            $fb = Join-Path $_.FullName "flutter\bin\flutter.bat"
+            if (Test-Path $fb) { $candidates += $fb }
+        }
+    }
 
-  return $null
+    $candidates = $candidates | Select-Object -Unique
+    foreach ($c in $candidates) {
+        if (Test-Path $c) { return (Resolve-Path $c).Path }
+    }
+
+    return $null
 }
 
 function Run-Flutter {
-  param(
-    [Parameter(Mandatory=$true)][string]$FlutterBat,
-    [Parameter(Mandatory=$true)][string]$WorkingDir,
-    [Parameter(Mandatory=$true)][string[]]$Args
-  )
 
-  $argLine = $Args -join " "
-  Say "==> flutter $argLine"
-  Push-Location $WorkingDir
-  try {
-    # IMPORTANT: no illegal "@args.Split()" — args already an array
-    & $FlutterBat @Args
-    if ($LASTEXITCODE -ne 0) { Die "Flutter failed: flutter $argLine (exit $LASTEXITCODE)" }
-  } finally {
-    Pop-Location
-  }
+    $argLine = $Args -join " "
+    Say "==> flutter $argLine"
+    Push-Location $WorkingDir
+    try {
+        # IMPORTANT: no illegal "@args.Split()" â€” args already an array
+        & $FlutterBat @Args
+        if ($LASTEXITCODE -ne 0) { Die "Flutter failed: flutter $argLine (exit $LASTEXITCODE)" }
+    }
+    finally {
+        Pop-Location
+    }
 }
 
 function Backup-File {
-  param([string]$Path, [string]$BackupDir)
-  if (Test-Path $Path) {
-    $name = Split-Path $Path -Leaf
-    $ts = Get-Date -Format "yyyyMMdd_HHmmss"
-    $dest = Join-Path $BackupDir "$name.$ts.bak"
-    Copy-Item $Path $dest -Force
-    Ok "Backed up: $name -> $(Split-Path $dest -Leaf)"
-  }
+    param([string]$Path, [string]$BackupDir)
+    if (Test-Path $Path) {
+        $name = Split-Path $Path -Leaf
+        $ts = Get-Date -Format "yyyyMMdd_HHmmss"
+        $dest = Join-Path $BackupDir "$name.$ts.bak"
+        Copy-Item $Path $dest -Force
+        Ok "Backed up: $name -> $(Split-Path $dest -Leaf)"
+    }
 }
 
 function Write-PremiumDashboard {
-  param([string]$LibDir)
+    param([string]$LibDir)
 
-  $file = Join-Path $LibDir "premium_dashboard.dart"
+    $file = Join-Path $LibDir "premium_dashboard.dart"
 
-@'
+    @'
 import 'package:flutter/material.dart';
 
 class PremiumDashboard extends StatelessWidget {
@@ -307,16 +309,16 @@ class PremiumDashboard extends StatelessWidget {
 }
 '@ | Set-Content -LiteralPath $file -Encoding UTF8
 
-  Ok "Premium UI written: $file"
+    Ok "Premium UI written: $file"
 }
 
 function Force-PremiumMain {
-  param([string]$LibDir, [string]$BackupDir)
+    param([string]$LibDir, [string]$BackupDir)
 
-  $main = Join-Path $LibDir "main.dart"
-  Backup-File -Path $main -BackupDir $BackupDir
+    $main = Join-Path $LibDir "main.dart"
+    Backup-File -Path $main -BackupDir $BackupDir
 
-@'
+    @'
 import 'package:flutter/material.dart';
 import 'premium_dashboard.dart';
 
@@ -350,73 +352,75 @@ class SimonPremiumApp extends StatelessWidget {
 }
 '@ | Set-Content -LiteralPath $main -Encoding UTF8
 
-  Ok "Forced premium entry: $main"
+    Ok "Forced premium entry: $main"
 }
 
 function Kill-LockingProcesses {
-  param([string[]]$Names)
+    param([string[]]$Names)
 
-  foreach ($n in $Names) {
-    try {
-      Get-Process -Name $n -ErrorAction SilentlyContinue | ForEach-Object {
-        Warn "Killing process locking files: $($_.ProcessName) (PID $($_.Id))"
-        Stop-Process -Id $_.Id -Force -ErrorAction SilentlyContinue
-      }
-    } catch {}
-  }
+    foreach ($n in $Names) {
+        try {
+            Get-Process -Name $n -ErrorAction SilentlyContinue | ForEach-Object {
+                Warn "Killing process locking files: $($_.ProcessName) (PID $($_.Id))"
+                Stop-Process -Id $_.Id -Force -ErrorAction SilentlyContinue
+            }
+        }
+        catch {}
+    }
 }
 
 function Robocopy-Mirror {
-  param([string]$Source, [string]$Dest)
+    param([string]$Source, [string]$Dest)
 
-  if (!(Test-Path $Source)) { Die "Release folder missing: $Source" }
+    if (!(Test-Path $Source)) { Die "Release folder missing: $Source" }
 
-  if (Test-Path $Dest) {
-    try { Remove-Item $Dest -Recurse -Force -ErrorAction SilentlyContinue } catch {}
-  }
-  New-Item -ItemType Directory -Force -Path $Dest | Out-Null
+    if (Test-Path $Dest) {
+        try { Remove-Item $Dest -Recurse -Force -ErrorAction SilentlyContinue } catch {}
+    }
+    New-Item -ItemType Directory -Force -Path $Dest | Out-Null
 
-  # /MIR mirrors, /R retry count, /W wait seconds
-  # Exit codes 0-7 are "success" by robocopy rules
-  $cmd = @(
-    "robocopy",
-    "`"$Source`"",
-    "`"$Dest`"",
-    "/MIR","/R:6","/W:1",
-    "/NFL","/NDL","/NJH","/NJS","/NP"
-  ) -join " "
+    # /MIR mirrors, /R retry count, /W wait seconds
+    # Exit codes 0-7 are "success" by robocopy rules
+    $cmd = @(
+        "robocopy",
+        "`"$Source`"",
+        "`"$Dest`"",
+        "/MIR", "/R:6", "/W:1",
+        "/NFL", "/NDL", "/NJH", "/NJS", "/NP"
+    ) -join " "
 
-  Say "==> Packaging portable (robocopy mirror)"
-  cmd.exe /c $cmd | Out-Null
+    Say "==> Packaging portable (robocopy mirror)"
+    cmd.exe /c $cmd | Out-Null
 
-  $rc = $LASTEXITCODE
-  if ($rc -gt 7) { Die "Robocopy failed with exit code $rc (locked file or permission issue)." }
+    $rc = $LASTEXITCODE
+    if ($rc -gt 7) { Die "Robocopy failed with exit code $rc (locked file or permission issue)." }
 
-  Ok "Portable folder ready: $Dest"
+    Ok "Portable folder ready: $Dest"
 }
 
 function Zip-Folder {
-  param([string]$Folder, [string]$ZipPath)
+    param([string]$Folder, [string]$ZipPath)
 
-  if (Test-Path $ZipPath) { Remove-Item $ZipPath -Force -ErrorAction SilentlyContinue }
+    if (Test-Path $ZipPath) { Remove-Item $ZipPath -Force -ErrorAction SilentlyContinue }
 
-  # Prefer 7z if installed (faster / better). Otherwise use Compress-Archive.
-  $sevenZip = (Get-Command 7z -ErrorAction SilentlyContinue)
-  if ($sevenZip) {
-    Say "==> Zipping with 7z: $ZipPath"
-    & $sevenZip.Source a -tzip -mx=5 $ZipPath (Join-Path $Folder "*") | Out-Null
-    if ($LASTEXITCODE -ne 0) { Die "7z zip failed (exit $LASTEXITCODE)" }
-  } else {
-    Say "==> Zipping with Compress-Archive: $ZipPath"
-    Compress-Archive -Path (Join-Path $Folder "*") -DestinationPath $ZipPath -Force
-  }
+    # Prefer 7z if installed (faster / better). Otherwise use Compress-Archive.
+    $sevenZip = (Get-Command 7z -ErrorAction SilentlyContinue)
+    if ($sevenZip) {
+        Say "==> Zipping with 7z: $ZipPath"
+        & $sevenZip.Source a -tzip -mx=5 $ZipPath (Join-Path $Folder "*") | Out-Null
+        if ($LASTEXITCODE -ne 0) { Die "7z zip failed (exit $LASTEXITCODE)" }
+    }
+    else {
+        Say "==> Zipping with Compress-Archive: $ZipPath"
+        Compress-Archive -Path (Join-Path $Folder "*") -DestinationPath $ZipPath -Force
+    }
 
-  Ok "ZIP created: $ZipPath"
+    Ok "ZIP created: $ZipPath"
 }
 
 # ------------------ MAIN ------------------
 $ROOT = Resolve-Root
-$LIB  = Join-Path $ROOT "lib"
+$LIB = Join-Path $ROOT "lib"
 $DIST = Join-Path $ROOT "DIST"
 $BACKUPS = Join-Path $ROOT "TOOLS\_BACKUPS"
 
@@ -427,7 +431,7 @@ Say "==> Project: $ROOT"
 
 $FLUTTER = Find-Flutter
 if (-not $FLUTTER) {
-  Die "Flutter not found. Install Flutter or Puro, OR set env var FLUTTER to flutter.bat full path."
+    Die "Flutter not found. Install Flutter or Puro, OR set env var FLUTTER to flutter.bat full path."
 }
 Ok "Flutter: $FLUTTER"
 
@@ -436,22 +440,22 @@ Write-PremiumDashboard -LibDir $LIB
 Force-PremiumMain -LibDir $LIB -BackupDir $BACKUPS
 
 # Make sure windows desktop is enabled (won't hurt if already)
-Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("config","--enable-windows-desktop") | Out-Null
+Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("config", "--enable-windows-desktop") | Out-Null
 
 # Clean build
 Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("clean")
-Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("pub","get")
+Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("pub", "get")
 
 # Build windows release
-Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("build","windows","--release")
+Run-Flutter -FlutterBat $FLUTTER -WorkingDir $ROOT -Args @("build", "windows", "--release")
 
 # Kill anything that might lock flutter_windows.dll during packaging
-Kill-LockingProcesses -Names @("simon_physio","flutter","dart","dartaotruntime")
+Kill-LockingProcesses -Names @("simon_physio", "flutter", "dart", "dartaotruntime")
 
 # Package portable
-$release  = Join-Path $ROOT "build\windows\x64\runner\Release"
+$release = Join-Path $ROOT "build\windows\x64\runner\Release"
 $portable = Join-Path $DIST "windows_release_portable"
-$zipPath  = Join-Path $DIST "simon_physio_windows_release_portable.zip"
+$zipPath = Join-Path $DIST "simon_physio_windows_release_portable.zip"
 
 Robocopy-Mirror -Source $release -Dest $portable
 
@@ -459,19 +463,21 @@ Robocopy-Mirror -Source $release -Dest $portable
 $exeSrc = Join-Path $portable "simon_physio.exe"
 $exeDst = Join-Path $DIST "simon_physio_premium.exe"
 if (Test-Path $exeSrc) {
-  Copy-Item $exeSrc $exeDst -Force
-  Ok "EXE copied: $exeDst"
-} else {
-  Warn "EXE not found in portable folder (unexpected)."
+    Copy-Item $exeSrc $exeDst -Force
+    Ok "EXE copied: $exeDst"
+}
+else {
+    Warn "EXE not found in portable folder (unexpected)."
 }
 
 # Zip
 Zip-Folder -Folder $portable -ZipPath $zipPath
 
 Ok "==============================="
-Ok "DONE ✅ Premium build + portable packaged"
+Ok "DONE âœ… Premium build + portable packaged"
 Ok "PORTABLE: $portable"
 Ok "ZIP     : $zipPath"
 Ok "EXE     : $exeDst"
 Ok "BACKUPS : $BACKUPS"
 Ok "==============================="
+

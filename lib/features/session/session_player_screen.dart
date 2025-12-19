@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../../core/widgets/app_card.dart';
 
 class SessionPlayerScreen extends StatelessWidget {
@@ -7,7 +7,7 @@ class SessionPlayerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Lower Back – Day 1')),
+      appBar: AppBar(title: const Text('Lower Back  Day 1')),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -47,7 +47,13 @@ class SessionPlayerScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                      // Auto-wired by SIMON_ONECLICK_AUTOFIX_BUTTONS_AND_BUILD.ps1
+                      // TODO: connect to video/exercise controller if available
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Action wired. Connect player logic next.')),
+                      );
+                    },
                 child: const Text('Mark Step Complete'),
               ),
             ),

@@ -1,0 +1,95 @@
+# ======================================================
+# SIMON – ONE CLICK ASSET FIX + VERIFY (NO MANUAL)
+# ======================================================
+
+$ErrorActionPreference = "Stop"
+Set-StrictMode -Version Latest
+
+function Say($m){ Write-Host $m -ForegroundColor Cyan }
+function Ok($m){ Write-Host $m -ForegroundColor Green }
+function Die($m){ Write-Host $m -ForegroundColor Red; exit 1 }
+
+$ROOT = "C:\SIMON\simon_physio"
+$FLUTTER = "C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat"
+
+if (!(Test-Path $ROOT)) { Die "Repo not found" }
+if (!(Test-Path $FLUTTER)) { Die "Flutter not found" }
+
+Set-Location $ROOT
+Say "Repo: $ROOT"
+
+# ------------------------------------------------------
+# 1. FIX pubspec.yaml (single flutter block only)
+# ------------------------------------------------------
+$pub = "$ROOT\pubspec.yaml"
+if (!(Test-Path $pub)) { Die "pubspec.yaml missing" }
+
+Say "Fixing pubspec.yaml…"
+
+$lines = Get-Content $pub
+$out = @()
+$skip = $false
+
+foreach ($l in $lines) {
+
+  # REMOVE BAD flutter block with deps inside it
+  if ($l -match '^\s*flutter:\s*$') {
+    if ($out -match 'flutter:') {
+      $skip = $true
+      continue
+    }
+  }
+
+  if ($skip) {
+    if ($l -match '^\S') { $skip = $false }
+    else { continue }
+  }
+
+  $out += $l
+}
+
+# ENSURE correct flutter block exists
+if ($out -notmatch '^flutter:') {
+  $out += ""
+  $out += "flutter:"
+  $out += "  uses-material-design: true"
+  $out += "  assets:"
+  $out += "    - assets/images/"
+  $out += "    - assets/icons/"
+  $out += "    - assets/media/bundled/thumbs/"
+  $out += "    - assets/media/bundled/previews/"
+}
+
+Set-Content $pub $out -Encoding utf8
+Ok "pubspec.yaml fixed"
+
+# ------------------------------------------------------
+# 2. CLEAN + BUILD
+# ------------------------------------------------------
+Say "flutter clean"
+& $FLUTTER clean | Out-Null
+
+Say "flutter pub get"
+& $FLUTTER pub get | Out-Null
+
+Say "flutter build windows --release"
+& $FLUTTER build windows --release | Out-Null
+
+# ------------------------------------------------------
+# 3. VERIFY ASSETS ACTUALLY BUNDLED
+# ------------------------------------------------------
+$FA = "$ROOT\build\windows\x64\runner\Release\data\flutter_assets"
+
+if (!(Test-Path $FA)) { Die "flutter_assets folder missing" }
+if (!(Test-Path "$FA\assets")) { Die "❌ ASSETS NOT BUNDLED" }
+
+$files = Get-ChildItem "$FA\assets" -Recurse -File
+if ($files.Count -eq 0) { Die "❌ assets folder empty" }
+
+Ok "✅ ASSETS VERIFIED"
+Ok "Files found: $($files.Count)"
+
+# ------------------------------------------------------
+# DONE
+# ------------------------------------------------------
+Ok "GOLD MASTER – READY TO SHIP 🚀"

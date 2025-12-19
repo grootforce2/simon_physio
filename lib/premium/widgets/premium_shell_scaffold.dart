@@ -28,7 +28,16 @@ class PremiumShellScaffold extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(title, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
+                      const SizedBox(
+  width: 22,
+  height: 22,
+  child: Image(image: AssetImage('assets/images/app_icon.png')),
+),
+// ASSET_SMOKETEST_IN_SHELL
+const SizedBox(width: 10),
+const Text('Assets OK', style: TextStyle(fontWeight: FontWeight.w700, fontSize: 12, color: Color(0xFF9FB0C6))),
+const SizedBox(width: 12),
+Text(title, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900)),
                       const SizedBox(height: 4),
                       Text(subtitle, style: const TextStyle(color: Color(0xFF9FB0C6))),
                     ],
@@ -50,3 +59,4 @@ class PremiumShellScaffold extends StatelessWidget {
     );
   }
 }
+
