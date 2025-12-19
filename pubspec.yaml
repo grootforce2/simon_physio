@@ -1,7 +1,7 @@
 ﻿name: simon_physio
 description: Premium physio rehab app with offline-first plans, sessions, and hybrid media.
 publish_to: 'none'
-version: 1.0.3+4
+version: 1.0.3+5
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -47,6 +47,7 @@ flutter:
     - assets/icons/
     - assets/media/bundled/thumbs/
     - assets/media/bundled/previews/
+
 
 
 
