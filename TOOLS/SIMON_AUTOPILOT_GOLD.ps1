@@ -20,28 +20,28 @@ Write-Host ""
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-function Say($m){ Write-Host $m -ForegroundColor Cyan }
-function Ok($m){ Write-Host $m -ForegroundColor Green }
-function Warn($m){ Write-Host $m -ForegroundColor Yellow }
-function Die($m){ Write-Host $m -ForegroundColor Red; throw $m }
+function Say($m) { Write-Host $m -ForegroundColor Cyan }
+function Ok($m) { Write-Host $m -ForegroundColor Green }
+function Warn($m) { Write-Host $m -ForegroundColor Yellow }
+function Die($m) { Write-Host $m -ForegroundColor Red; throw $m }
 
 $ROOT = (Resolve-Path ".").Path
 if (!(Test-Path (Join-Path $ROOT ".git"))) { Die "Not in a git repo. Run from C:\SIMON\simon_physio" }
 
 # --- Token check (push without prompts)
-if ([string]::IsNullOrWhiteSpace($env:GITHUB_TOKEN)) {
-  Die "Missing GITHUB_TOKEN env var. Set it: setx GITHUB_TOKEN `"ghp_...`" then reopen PowerShell."
+if ([string]::IsNullOrWhiteSpace(${env}:GITHUB_TOKEN)) {
+    Die "Missing GITHUB_TOKEN env var. Set it: setx GITHUB_TOKEN `"ghp_...`" then reopen PowerShell."
 }
 
 # --- Flutter locate (PATH or Puro)
 function Find-Flutter {
-  $cmd = Get-Command flutter -ErrorAction SilentlyContinue
-  if ($cmd) { return $cmd.Source }
+    $cmd = Get-Command flutter -ErrorAction SilentlyContinue
+    if ($cmd) { return $cmd.Source }
 
-  $puro = Join-Path $env:USERPROFILE ".puro\envs\stable\flutter\bin\flutter.bat"
-  if (Test-Path $puro) { return $puro }
+    $puro = Join-Path ${env}:USERPROFILE ".puro\envs\stable\flutter\bin\flutter.bat"
+    if (Test-Path $puro) { return $puro }
 
-  Die "Flutter not found. Install Flutter or Puro stable env."
+    Die "Flutter not found. Install Flutter or Puro stable env."
 }
 $FLUTTER = Find-Flutter
 Ok "Project: $ROOT"
@@ -64,7 +64,7 @@ build/
 windows/flutter/ephemeral/
 TOOLS/_PREMIUM_OUT/
 TOOLS/_BACKUPS/
-"@
+# sanitised example
 $existing = Get-Content $gitignore -ErrorAction SilentlyContinue | Out-String
 if ($existing -notmatch "TOOLS/_BACKUPS/") {
   $append | Out-File -Encoding utf8 -Append $gitignore
@@ -757,7 +757,8 @@ Say "==> flutter analyze"
 Say "==> (skipped) flutter test (Windows release build)"
 Say "==> flutter build windows --release"
 & $FLUTTER build windows --release | Out-Null
-
+
+
 if ($LASTEXITCODE -ne 0) { Die "Build failed (flutter build windows). Stopping before packaging." }
 # --- Packaging portable (robocopy mirror avoids locked file drama)
 $DIST = Join-Path $ROOT "DIST"
@@ -800,14 +801,14 @@ if ([string]::IsNullOrWhiteSpace($dirty)) {
 
 # --- Push using GIT_ASKPASS (no interactive prompts)
 Say "==> Pushing to origin/$BRANCH (non-interactive)..."
-$askpass = Join-Path $env:TEMP "git_askpass_token.cmd"
-@"
+$askpass = Join-Path ${env}:TEMP "git_askpass_token.cmd"
+# sanitised example
 @echo off
 echo %GITHUB_TOKEN%
 "@ | Out-File -Encoding ascii $askpass
 
-$env:GIT_ASKPASS = $askpass
-$env:GIT_TERMINAL_PROMPT = "0"
+${env}:GIT_ASKPASS = $askpass
+${env}:GIT_TERMINAL_PROMPT = "0"
 
 git push -u origin $BRANCH | Out-Null
 Remove-Item $askpass -Force -ErrorAction SilentlyContinue | Out-Null
@@ -819,6 +820,10 @@ Ok "PORTABLE: $dest"
 Ok "ZIP     : $zip"
 Ok "EXE     : $exeOut"
 Ok "==============================="
+
+
+
+
 
 
 

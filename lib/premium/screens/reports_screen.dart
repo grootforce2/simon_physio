@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class ReportsScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class ReportsScreen extends StatelessWidget {
       title: "Reports",
       subtitle: "Export-ready clinical notes and summaries.",
       actions: [
-        FilledButton.icon(onPressed: () {}, icon: const Icon(Icons.picture_as_pdf_rounded), label: const Text("Export PDF")),
+        FilledButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\reports_screen.dart'); }, icon: const Icon(Icons.picture_as_pdf_rounded), label: const Text("Export PDF")),
       ],
       children: const [
         Card(

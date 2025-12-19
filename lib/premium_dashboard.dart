@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class PremiumDashboard extends StatefulWidget {
   const PremiumDashboard({super.key});
@@ -22,6 +22,26 @@ class _PremiumDashboardState extends State<PremiumDashboard> {
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     return Scaffold(
+  // ASSET_SMOKETEST_BANNER
+  body: Column(
+    children: [
+      Padding(
+        padding: const EdgeInsets.only(top: 8, left: 12, right: 12),
+        child: Row(
+          children: const [
+            SizedBox(
+              width: 28,
+              height: 28,
+              child: Image(image: AssetImage('assets/images/app_icon.png')),
+            ),
+            SizedBox(width: 10),
+            Text('Assets OK', style: TextStyle(fontWeight: FontWeight.w600)),
+          ],
+        ),
+      ),
+      const SizedBox(height: 8),
+      Expanded(
+        child:
       backgroundColor: const Color(0xFFF6F7FB),
       body: SafeArea(
         child: Center(
@@ -105,7 +125,12 @@ class _TopBar extends StatelessWidget {
           ),
         ),
         FilledButton.icon(
-          onPressed: () {},
+          onPressed: () {
+                      // Auto-wired by SIMON_ONECLICK_AUTOFIX_BUTTONS_AND_BUILD.ps1
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Coming soonÃƒÆ’¢Ãƒ¢Ã¢â‚¬Å¡¬¦')),
+                      );
+                    },
           icon: const Icon(Icons.settings_rounded, size: 18),
           label: const Text("Settings"),
         ),
@@ -166,7 +191,7 @@ class _PlanCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Todayâ€™s session", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
+                    Text("Todays session", style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
                     SizedBox(height: 4),
                     Text("Follow the steps. Keep it simple. Track pain honestly.",
                         style: TextStyle(color: Colors.black54)),
@@ -188,7 +213,7 @@ class _PlanCard extends StatelessWidget {
             spacing: 8,
             runSpacing: 8,
             children: const [
-              _Pill(label: "12â€“15 min"),
+              _Pill(label: "1215 min"),
               _Pill(label: "Mobility + Strength"),
               _Pill(label: "Low equipment"),
             ],
@@ -349,7 +374,7 @@ class _PainCard extends StatelessWidget {
         children: [
           const Text("Pain check-in", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
           const SizedBox(height: 6),
-          const Text("0 = none Â· 10 = worst", style: TextStyle(color: Colors.black54)),
+          const Text("0 = none ÃƒÆ’Ã¢â‚¬Å¡· 10 = worst", style: TextStyle(color: Colors.black54)),
           const SizedBox(height: 10),
           Row(
             children: [
@@ -428,3 +453,4 @@ class _Exercise {
   final IconData icon;
   const _Exercise(this.title, this.detail, this.icon);
 }
+

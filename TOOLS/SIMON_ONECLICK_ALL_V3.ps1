@@ -1,29 +1,30 @@
-# SIMON_ONECLICK_ALL_V3.ps1
+﻿# SIMON_ONECLICK_ALL_V3.ps1
 # One click: version bump -> git commit/push -> build windows release -> package FULL bundle -> zip + manifest
 $ErrorActionPreference = "Stop"
 
-function Say($m){ Write-Host "==> $m" -ForegroundColor Cyan }
+function Say($m) { Write-Host "==> $m" -ForegroundColor Cyan }
 
-$ScriptDir   = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ProjectRoot = Split-Path -Parent $ScriptDir
 
-$FlutterBat  = "C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat"
-$VsDevCmd    = "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\VsDevCmd.bat"
+$FlutterBat = "C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat"
+$VsDevCmd = "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\VsDevCmd.bat"
 
 if (!(Test-Path $ProjectRoot)) { throw "Project root not found: $ProjectRoot" }
-if (!(Test-Path $FlutterBat))  { throw "flutter.bat not found: $FlutterBat" }
-if (!(Test-Path $VsDevCmd))    { throw "VsDevCmd.bat not found: $VsDevCmd" }
+if (!(Test-Path $FlutterBat)) { throw "flutter.bat not found: $FlutterBat" }
+if (!(Test-Path $VsDevCmd)) { throw "VsDevCmd.bat not found: $VsDevCmd" }
 
 Set-Location $ProjectRoot
 
 function Run-VS($cmd, $logPath = $null) {
-  $wrapped = """" + $VsDevCmd + """ -arch=x64 -host_arch=x64 && " + $cmd
-  if ($logPath) {
-    cmd /c $wrapped *> $logPath
-  } else {
-    cmd /c $wrapped
-  }
-  if ($LASTEXITCODE -ne 0) { throw "Command failed ($LASTEXITCODE): $cmd" }
+    $wrapped = """" + $VsDevCmd + """ -arch=x64 -host_arch=x64 && " + $cmd
+    if ($logPath) {
+        cmd /c $wrapped *> $logPath
+    }
+    else {
+        cmd /c $wrapped
+    }
+    if ($LASTEXITCODE -ne 0) { throw "Command failed ($LASTEXITCODE): $cmd" }
 }
 
 # ---------- Version bump (pubspec.yaml build number +1) ----------
@@ -38,12 +39,12 @@ $idx = $idx - 1
 
 $verLine = $lines[$idx]
 # expected: version: 1.2.3+45 (or similar)
-$ver = ($verLine -split ":",2)[1].Trim()
+$ver = ($verLine -split ":", 2)[1].Trim()
 if ($ver -notmatch '^(?<semver>\d+\.\d+\.\d+)(\+(?<build>\d+))?$') {
-  throw "Unexpected version format: $ver (expected like 1.2.3+45)"
+    throw "Unexpected version format: $ver (expected like 1.2.3+45)"
 }
 $semver = $Matches.semver
-$build  = if ($Matches.build) { [int]$Matches.build } else { 0 }
+$build = if ($Matches.build) { [int]$Matches.build } else { 0 }
 $newBuild = $build + 1
 $newVer = "$semver+$newBuild"
 $lines[$idx] = ($verLine -replace [regex]::Escape($ver), $newVer)
@@ -56,7 +57,7 @@ Say "Git add/commit/push"
 # ensure origin exists (won't overwrite)
 $hasOrigin = (git remote 2>$null) -match '^origin$'
 if (-not $hasOrigin) {
-  git remote add origin "https://github.com/grootforce2/simon_physio.git" | Out-Null
+    git remote add origin "https://github.com/grootforce2/simon_physio.git" | Out-Null
 }
 git branch -M main | Out-Null
 
@@ -64,9 +65,10 @@ git add -A | Out-Null
 # Commit only if there are changes
 $dirty = (git status --porcelain)
 if ($dirty) {
-  git commit -m "Release $newVer (auto)" | Out-Null
-} else {
-  Say "Nothing new to commit"
+    git commit -m "Release $newVer (auto)" | Out-Null
+}
+else {
+    Say "Nothing new to commit"
 }
 git push -u origin main
 
@@ -99,7 +101,7 @@ $appExe = Get-ChildItem $releaseDir -Filter *.exe | Where-Object { $_.Name -notm
 if (!$appExe) { throw "No app exe found in: $releaseDir" }
 
 $bundleName = "simon_physio_windows_release_${newVer}_$timestamp"
-$bundleDir  = Join-Path $dist $bundleName
+$bundleDir = Join-Path $dist $bundleName
 
 Say "Packaging FULL bundle (DLLs + data + plugins) -> $bundleDir"
 if (Test-Path $bundleDir) { Remove-Item $bundleDir -Recurse -Force }
@@ -110,9 +112,10 @@ Copy-Item -Path (Join-Path $releaseDir "*") -Destination $bundleDir -Recurse -Fo
 # sanity: check isar dll exists somewhere in bundle
 $isar = Get-ChildItem $bundleDir -Recurse -Filter "isar_flutter_libs_plugin.dll" -ErrorAction SilentlyContinue | Select-Object -First 1
 if (-not $isar) {
-  Say "WARNING: isar_flutter_libs_plugin.dll not found in bundle. App may still fail. Check $log"
-} else {
-  Say "OK: Found isar dll at $($isar.FullName)"
+    Say "WARNING: isar_flutter_libs_plugin.dll not found in bundle. App may still fail. Check $log"
+}
+else {
+    Say "OK: Found isar dll at $($isar.FullName)"
 }
 
 # zip the whole bundle
@@ -124,13 +127,13 @@ Compress-Archive -Path (Join-Path $bundleDir "*") -DestinationPath $zipPath
 # write manifest
 $commit = (git rev-parse --short HEAD).Trim()
 $manifest = [pscustomobject]@{
-  app        = "simon_physio"
-  version    = $newVer
-  gitCommit  = $commit
-  builtAt    = (Get-Date).ToString("s")
-  exe        = (Join-Path $bundleDir $appExe.Name)
-  zip        = $zipPath
-  log        = $log
+    app       = "simon_physio"
+    version   = $newVer
+    gitCommit = $commit
+    builtAt   = (Get-Date).ToString("s")
+    exe       = (Join-Path $bundleDir $appExe.Name)
+    zip       = $zipPath
+    log       = $log
 }
 $manifestPath = Join-Path $dist ("manifest_$timestamp.json")
 $manifest | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 -Path $manifestPath
@@ -144,3 +147,4 @@ Write-Host "ZIP    : $zipPath"
 Write-Host "LOG    : $log"
 Write-Host "MANIF  : $manifestPath"
 Write-Host "================================================"
+

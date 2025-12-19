@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -7,7 +7,7 @@ class DashboardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return PremiumShellScaffold(
       title: "Dashboard",
-      subtitle: "Todayâ€™s workload, key clients, and quick actions.",
+      subtitle: "Todays workload, key clients, and quick actions.",
       children: const [
         _Grid(),
       ],
@@ -23,10 +23,10 @@ class _Grid extends StatelessWidget {
       spacing: 14,
       runSpacing: 14,
       children: const [
-        _KpiCard(title: "Appointments", value: "â€”", hint: "Today"),
-        _KpiCard(title: "Clients", value: "â€”", hint: "Active"),
-        _KpiCard(title: "Programs", value: "â€”", hint: "Assigned"),
-        _KpiCard(title: "Tasks", value: "â€”", hint: "Outstanding"),
+        _KpiCard(title: "Appointments", value: "", hint: "Today"),
+        _KpiCard(title: "Clients", value: "", hint: "Active"),
+        _KpiCard(title: "Programs", value: "", hint: "Assigned"),
+        _KpiCard(title: "Tasks", value: "", hint: "Outstanding"),
       ],
     );
   }

@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class ProgramsScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class ProgramsScreen extends StatelessWidget {
       title: "Home Programs",
       subtitle: "Build, assign, and track adherence.",
       actions: [
-        FilledButton.icon(onPressed: () {}, icon: const Icon(Icons.playlist_add_rounded), label: const Text("New Program")),
+        FilledButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\programs_screen.dart'); }, icon: const Icon(Icons.playlist_add_rounded), label: const Text("New Program")),
       ],
       children: const [
         Card(

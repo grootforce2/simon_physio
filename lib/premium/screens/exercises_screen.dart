@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import '../widgets/premium_shell_scaffold.dart';
 
 class ExercisesScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class ExercisesScreen extends StatelessWidget {
       title: "Exercise Library",
       subtitle: "Templates, progressions, cues, contraindications.",
       actions: [
-        FilledButton.icon(onPressed: () {}, icon: const Icon(Icons.add_rounded), label: const Text("New Exercise")),
+        FilledButton.icon(onPressed: () { debugPrint('TODO-WIRE: lib\premium\screens\exercises_screen.dart'); }, icon: const Icon(Icons.add_rounded), label: const Text("New Exercise")),
       ],
       children: const [
         Card(
