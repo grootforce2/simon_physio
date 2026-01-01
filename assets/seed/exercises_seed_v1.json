@@ -1,0 +1,2461 @@
+﻿{
+    "exercises":  [
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX001",
+                          "createdUtc":  "2025-12-20T07:01:34.7937585Z",
+                          "region":  "Ankle/Calf",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Ankle Pumps",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Ankle/Calf) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX002",
+                          "createdUtc":  "2025-12-20T07:01:34.8017626Z",
+                          "region":  "Calf",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Heel Raises",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Calf) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Chair",
+                          "id":  "EX003",
+                          "createdUtc":  "2025-12-20T07:01:34.8017626Z",
+                          "region":  "Hip Flexors",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Seated March",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip Flexors) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Chair",
+                          "id":  "EX004",
+                          "createdUtc":  "2025-12-20T07:01:34.8017626Z",
+                          "region":  "Quads/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Sit-to-Stand",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Quads/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Wall",
+                          "id":  "EX005",
+                          "createdUtc":  "2025-12-20T07:01:34.8027578Z",
+                          "region":  "Chest/Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Wall Push-Up",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Chest/Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX006",
+                          "createdUtc":  "2025-12-20T07:01:34.8027578Z",
+                          "region":  "Upper Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Scapular Squeezes",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Upper Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX007",
+                          "createdUtc":  "2025-12-20T07:01:34.8027578Z",
+                          "region":  "Neck",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Chin Tucks",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Neck) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX008",
+                          "createdUtc":  "2025-12-20T07:01:34.8027578Z",
+                          "region":  "Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Pendulum Swing",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Stick/Towel",
+                          "id":  "EX009",
+                          "createdUtc":  "2025-12-20T07:01:34.8027578Z",
+                          "region":  "Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Shoulder Flexion (Stick)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Towel",
+                          "id":  "EX010",
+                          "createdUtc":  "2025-12-20T07:01:34.8037571Z",
+                          "region":  "Hamstrings",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Hamstring Stretch (Supine)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hamstrings) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Wall/Support",
+                          "id":  "EX011",
+                          "createdUtc":  "2025-12-20T07:01:34.8037571Z",
+                          "region":  "Quads",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Quad Stretch (Standing)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Quads) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX012",
+                          "createdUtc":  "2025-12-20T07:01:34.8037571Z",
+                          "region":  "Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Glute Bridge",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX013",
+                          "createdUtc":  "2025-12-20T07:01:34.8047550Z",
+                          "region":  "Hip/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Clamshell",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX014",
+                          "createdUtc":  "2025-12-20T07:01:34.8047550Z",
+                          "region":  "Hip",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Side-Lying Hip Abduction",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX015",
+                          "createdUtc":  "2025-12-20T07:01:34.8047550Z",
+                          "region":  "Core/Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Bird Dog",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Core/Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX016",
+                          "createdUtc":  "2025-12-20T07:01:34.8047550Z",
+                          "region":  "Core",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Dead Bug",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Core) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX017",
+                          "createdUtc":  "2025-12-20T07:01:34.8057573Z",
+                          "region":  "Core",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Plank (Knees)",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Core) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Wall",
+                          "id":  "EX018",
+                          "createdUtc":  "2025-12-20T07:01:34.8067592Z",
+                          "region":  "Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Wall Slide",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX019",
+                          "createdUtc":  "2025-12-20T07:01:34.8077570Z",
+                          "region":  "Upper Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Theraband Row",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Upper Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX020",
+                          "createdUtc":  "2025-12-20T07:01:34.8087550Z",
+                          "region":  "Rotator Cuff",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Theraband External Rotation",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Rotator Cuff) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX021",
+                          "createdUtc":  "2025-12-20T07:01:34.8097558Z",
+                          "region":  "Rotator Cuff",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Theraband Internal Rotation",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Rotator Cuff) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Dumbbell/Band",
+                          "id":  "EX022",
+                          "createdUtc":  "2025-12-20T07:01:34.8107578Z",
+                          "region":  "Biceps",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Biceps Curl",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Biceps) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX023",
+                          "createdUtc":  "2025-12-20T07:01:34.8117578Z",
+                          "region":  "Triceps",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Triceps Extension",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Triceps) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Light weight",
+                          "id":  "EX024",
+                          "createdUtc":  "2025-12-20T07:01:34.8127577Z",
+                          "region":  "Wrist",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Wrist Flexion/Extension",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Wrist) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Ball/Putty",
+                          "id":  "EX025",
+                          "createdUtc":  "2025-12-20T07:01:34.8127577Z",
+                          "region":  "Hand",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Grip Squeeze",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hand) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Wall",
+                          "id":  "EX026",
+                          "createdUtc":  "2025-12-20T07:01:34.8137576Z",
+                          "region":  "Calf",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Calf Stretch (Wall)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Calf) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX027",
+                          "createdUtc":  "2025-12-20T07:01:34.8137576Z",
+                          "region":  "Hip Flexors",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Hip Flexor Stretch",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip Flexors) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX028",
+                          "createdUtc":  "2025-12-20T07:01:34.8147572Z",
+                          "region":  "Mid Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Thoracic Rotation (Open Book)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Mid Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX029",
+                          "createdUtc":  "2025-12-20T07:01:34.8147572Z",
+                          "region":  "Spine",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Cat-Cow",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Spine) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX030",
+                          "createdUtc":  "2025-12-20T07:01:34.8157565Z",
+                          "region":  "Low Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Lumbar Rotation (Supine)",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Low Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Step",
+                          "id":  "EX031",
+                          "createdUtc":  "2025-12-20T07:01:34.8167620Z",
+                          "region":  "Quads/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Step-Up",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Quads/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Step",
+                          "id":  "EX032",
+                          "createdUtc":  "2025-12-20T07:01:34.8167620Z",
+                          "region":  "Knee/Hip",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Lateral Step-Down",
+                          "difficulty":  "Hard",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Knee/Hip) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX033",
+                          "createdUtc":  "2025-12-20T07:01:34.8177610Z",
+                          "region":  "Ankle/Hip",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Single-Leg Balance",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Ankle/Hip) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX034",
+                          "createdUtc":  "2025-12-20T07:01:34.8187587Z",
+                          "region":  "Knee/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Mini Squat",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Knee/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Support",
+                          "id":  "EX035",
+                          "createdUtc":  "2025-12-20T07:01:34.8197582Z",
+                          "region":  "Legs",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Lunge (Supported)",
+                          "difficulty":  "Hard",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Legs) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX036",
+                          "createdUtc":  "2025-12-20T07:01:34.8197582Z",
+                          "region":  "Hip/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Side Step (Band)",
+                          "difficulty":  "Hard",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX037",
+                          "createdUtc":  "2025-12-20T07:01:34.8207605Z",
+                          "region":  "Balance",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Heel-to-Toe Walk",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Balance) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX038",
+                          "createdUtc":  "2025-12-20T07:01:34.8217566Z",
+                          "region":  "Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Shoulder Abduction (Band)",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Light weight",
+                          "id":  "EX039",
+                          "createdUtc":  "2025-12-20T07:01:34.8217566Z",
+                          "region":  "Shoulder",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Shoulder Scaption",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Shoulder) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX040",
+                          "createdUtc":  "2025-12-20T07:01:34.8217566Z",
+                          "region":  "Upper Back",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Prone Y-T-W",
+                          "difficulty":  "Hard",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Upper Back) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX041",
+                          "createdUtc":  "2025-12-20T07:01:34.8217566Z",
+                          "region":  "Neck",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Cervical Rotation AROM",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Neck) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Towel",
+                          "id":  "EX042",
+                          "createdUtc":  "2025-12-20T07:01:34.8227579Z",
+                          "region":  "Quads",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Isometric Quad Set",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Quads) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX043",
+                          "createdUtc":  "2025-12-20T07:01:34.8227579Z",
+                          "region":  "Hip/Quads",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Straight Leg Raise",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip/Quads) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Chair",
+                          "id":  "EX044",
+                          "createdUtc":  "2025-12-20T07:01:34.8227579Z",
+                          "region":  "Quads",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Seated Knee Extension",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Quads) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Band",
+                          "id":  "EX045",
+                          "createdUtc":  "2025-12-20T07:01:34.8227579Z",
+                          "region":  "Hamstrings",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Hamstring Curl (Band)",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hamstrings) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Mat",
+                          "id":  "EX046",
+                          "createdUtc":  "2025-12-20T07:01:34.8227579Z",
+                          "region":  "Hip/Glutes",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Glute Med Activation (Side Plank Knees)",
+                          "difficulty":  "Hard",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hip/Glutes) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Light weight",
+                          "id":  "EX047",
+                          "createdUtc":  "2025-12-20T07:01:34.8237566Z",
+                          "region":  "Forearm",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Forearm Pronation/Supination",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Forearm) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "Rubber band",
+                          "id":  "EX048",
+                          "createdUtc":  "2025-12-20T07:01:34.8237566Z",
+                          "region":  "Hand",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Finger Extensions",
+                          "difficulty":  "Easy",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Hand) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      },
+                      {
+                          "media":  {
+                                        "images":  [
+
+                                                   ],
+                                        "video":  ""
+                                    },
+                          "equipment":  "None",
+                          "id":  "EX049",
+                          "createdUtc":  "2025-12-20T07:01:34.8237566Z",
+                          "region":  "Nerve Mobility",
+                          "tags":  [
+                                       "seed",
+                                       "v1"
+                                   ],
+                          "variants":  [
+                                           {
+                                               "reps":  "6-10 reps x 1-2 sets, longer rest",
+                                               "type":  "elderly",
+                                               "notes":  "Use support, smaller range, slower tempo; prioritize balance."
+                                           },
+                                           {
+                                               "reps":  "5-8 reps x 1-2 sets, very controlled",
+                                               "type":  "postop",
+                                               "notes":  "Follow protocol; keep pain low; avoid end-range strain early."
+                                           },
+                                           {
+                                               "reps":  "8-15 reps x 3-5 sets, progress load",
+                                               "type":  "sports",
+                                               "notes":  "Progress load/tempo; add stability then power once cleared."
+                                           }
+                                       ],
+                          "safety":  [
+                                         "No sharp pain. Mild discomfort is ok; lingering \u003e24h means reduce intensity.",
+                                         "Keep breathing - do not hold breath.",
+                                         "Slow and controlled. No bouncing or jerking.",
+                                         "Stop and seek advice if tingling, numbness, chest pain, or dizziness.",
+                                         "Maintain alignment: knees over toes; shoulders down; neutral spine."
+                                     ],
+                          "name":  "Neural Glide (Median Nerve)",
+                          "difficulty":  "Medium",
+                          "steps":  [
+                                        "Set up: choose a stable position; keep spine neutral; breathe normally.",
+                                        "Start: engage the target area (Nerve Mobility) gently - no sharp pain.",
+                                        "Perform: slow controlled movement through comfortable range (2-3 sec each way).",
+                                        "Reps/Sets: 8-12 reps x 2-3 sets (or as prescribed).",
+                                        "Progression: add load/time only if pain stays \u003c= 3/10 and form is clean.",
+                                        "Stop if pain spikes, numbness, dizziness, or swelling increases."
+                                    ]
+                      }
+                  ],
+    "schema":  "simon_physio.exercise_seed.v1",
+    "generatedUtc":  "2025-12-20T07:01:34.8237566Z",
+    "count":  49,
+    "notes":  [
+                  "Local-first media: use the UI to attach files from Documents\\SimonPhysio\\media\\exercises\\images|videos.",
+                  "Phase-2 will add licensed media packs with provenance records."
+              ]
+}

@@ -1,0 +1,16 @@
+SIMON_PHYSIO FIX FILE_PICKER REPORT
+[2026-01-01 11:40:41] === START ===
+[2026-01-01 11:40:41] Flutter: C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat
+[2026-01-01 11:40:41] compileSdk: 36
+[2026-01-01 11:40:41] Targets found: 1
+[2026-01-01 11:40:41] --- FIXING: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\android\build.gradle
+[2026-01-01 11:40:42] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\android\build.gradle
+[2026-01-01 11:40:42]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\android\build.gradle.bak_20260101_114041
+[2026-01-01 11:40:42]         namespace: com.mr.flutter.plugin.filepicker
+[2026-01-01 11:40:42] Fixed count: 1
+[2026-01-01 11:40:42] === flutter clean ===
+[2026-01-01 11:40:43] === flutter pub get ===
+[2026-01-01 11:40:46] === flutter build apk --release ===
+[2026-01-01 11:41:45] === flutter build appbundle --release ===
+[2026-01-01 11:41:59] [OK] Done
+[2026-01-01 11:41:59] Report: C:\SIMON\simon_physio\RELEASES\report_FIX_FILE_PICKER_20260101_114041.txt

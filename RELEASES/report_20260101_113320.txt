@@ -1,0 +1,93 @@
+SIMON_PHYSIO BUILD REPORT
+[2026-01-01 11:33:20] === START ===
+[2026-01-01 11:33:20] Flutter: C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat
+[2026-01-01 11:33:21] compileSdk: 36
+[2026-01-01 11:33:21] PubCache: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\chewie-1.13.0\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\chewie-1.13.0\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.mr.flutter.plugin.filepicker
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\file_picker-8.3.7\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_animate-4.5.2\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_animate-4.5.2\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: io.flutter.plugins.flutter_plugin_android_lifecycle
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\fl_chart-0.68.0\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\fl_chart-0.68.0\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\google_fonts-6.3.3\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\google_fonts-6.3.3\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\go_router-14.8.1\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\go_router-14.8.1\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\isar_flutter_libs-3.1.0+1\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\isar_flutter_libs-3.1.0+1\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: dev.isar.isar_flutter_libs
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\package_info_plus-9.0.0\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\package_info_plus-9.0.0\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: dev.fluttercommunity.plus.packageinfo
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\package_info_plus-9.0.0\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\package_info_plus-9.0.0\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider-2.1.5\example\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider-2.1.5\example\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:21]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:21] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider_android-2.2.22\android\build.gradle
+[2026-01-01 11:33:21]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider_android-2.2.22\android\build.gradle.bak_20260101_113321
+[2026-01-01 11:33:22]         namespace: io.flutter.plugins.pathprovider
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider_android-2.2.22\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\path_provider_android-2.2.22\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences-2.5.4\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences-2.5.4\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences_android-2.4.18\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences_android-2.4.18\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: io.flutter.plugins.sharedpreferences
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences_android-2.4.18\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\shared_preferences_android-2.4.18\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\sqflite_android-2.4.2+2\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\sqflite_android-2.4.2+2\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.tekartik.sqflite
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher-6.3.2\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher-6.3.2\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher_android-6.3.28\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher_android-6.3.28\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: io.flutter.plugins.urllauncher
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher_android-6.3.28\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\url_launcher_android-6.3.28\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player-2.10.1\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player-2.10.1\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player_android-2.9.1\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player_android-2.9.1\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: io.flutter.plugins.videoplayer
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player_android-2.9.1\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\video_player_android-2.9.1\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\wakelock_plus-1.4.0\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\wakelock_plus-1.4.0\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: dev.fluttercommunity.plus.wakelock
+[2026-01-01 11:33:22] [FIXED] C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\wakelock_plus-1.4.0\example\android\build.gradle
+[2026-01-01 11:33:22]         backup: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev\wakelock_plus-1.4.0\example\android\build.gradle.bak_20260101_113322
+[2026-01-01 11:33:22]         namespace: com.grootforce.autofix.example
+[2026-01-01 11:33:22] Gradle files considered: 27
+[2026-01-01 11:33:22] Gradle files fixed     : 27
+[2026-01-01 11:33:22] === flutter clean ===
+[2026-01-01 11:33:24] === flutter pub get ===
+[2026-01-01 11:33:27] === flutter build apk --release ===
+[2026-01-01 11:34:29] === flutter build appbundle --release ===
+[2026-01-01 11:34:43] === RELEASES + HASHES ===

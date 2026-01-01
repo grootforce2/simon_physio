@@ -1,0 +1,7 @@
+SIMON_PHYSIO BUILD REPORT
+[2026-01-01 11:35:15] === START ===
+[2026-01-01 11:35:15] Flutter: C:\Users\iamgr\.puro\envs\stable\flutter\bin\flutter.bat
+[2026-01-01 11:35:15] compileSdk: 36
+[2026-01-01 11:35:15] PubCache: C:\Users\iamgr\.puro\shared\pub_cache\hosted\pub.dev
+[2026-01-01 11:35:16] Gradle files considered: 27
+[2026-01-01 11:35:16] Gradle files fixed     : 0
