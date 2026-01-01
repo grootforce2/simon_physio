@@ -18,3 +18,11 @@ DIST/
 
 # Backups
 *.bak_*
+RELEASES/
+RELEASES/*.apk
+RELEASES/*.aab
+RELEASES/*.exe
+RELEASES/*.zip
+DIST/*.exe
+DIST/*.zip
+
