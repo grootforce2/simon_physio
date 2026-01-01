@@ -1,0 +1,1 @@
+Set-StrictMode -Version Latest`r`n$ErrorActionPreference='Stop'`r`n`r`n# Guardrails for releases:`r`n# - Only allow release workflow on protected branch/tag patterns`r`n# - Ensure version bump + changelog + artifacts present`r`nWrite-Host '[OK] LOCK_RELEASE_PIPELINE scaffold present'`r`n

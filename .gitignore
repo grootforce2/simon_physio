@@ -1,4 +1,4 @@
-﻿# Flutter / Dart
+# Flutter / Dart
 .dart_tool/
 .packages
 .pub/
@@ -26,3 +26,5 @@ RELEASES/*.zip
 DIST/*.exe
 DIST/*.zip
 
+# GF-DEVOPS-TOOLKIT
+# GF build artifacts (recommended)`r`nRELEASES/`r`nDIST/`r`n*.aab`r`n*.apk`r`n*.zip`r`n*.exe`r`n

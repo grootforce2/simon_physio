@@ -1,0 +1,1 @@
+Set-StrictMode -Version Latest`r`n$ErrorActionPreference='Stop'`r`n`r`n# CI-only enforcement helper:`r`n# This script is meant to be called by repo build wrappers.`r`n# It fails loudly unless CI=true.`r`nif($env:CI -ne 'true'){`r`n  Write-Error 'CI-only policy: local builds are blocked. Use GitHub Actions.'`r`n}`r`nWrite-Host '[OK] CI-only policy satisfied'`r`n

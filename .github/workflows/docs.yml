@@ -1,0 +1,1 @@
+name: Docs`r`non:`r`n push:`r`n branches: [ main ]`r`n`r`njobs:`r`n docs:`r`n runs-on: ubuntu-latest`r`n steps:`r`n - uses: actions/checkout@v4`r`n - name: Build docs (placeholder)`r`n run: echo Generate README/CHANGELOG/site here.`r`n
