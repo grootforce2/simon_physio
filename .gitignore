@@ -49,3 +49,7 @@ $importMap
 
 # --- Backup files ---
 *.bak_*
+
+# premium tool output
+TOOLS/
+
