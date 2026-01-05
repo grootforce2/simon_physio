@@ -28,3 +28,24 @@ DIST/*.zip
 
 # GF-DEVOPS-TOOLKIT
 # GF build artifacts (recommended)`r`nRELEASES/`r`nDIST/`r`n*.aab`r`n*.apk`r`n*.zip`r`n*.exe`r`n
+# --- GF / Orion tooling artifacts (never commit) ---
+.gf_lock/
+.gf_logs/
+.gf_quarantine/
+.gf_tools/
+.health/
+_G*/
+PASTE_THE_FILE_PATH_HERE.txt
+
+# --- Accidental var/env placeholder files ---
+$c
+$entry
+$importMap
+%LOG%
+%OUT%
+%D%/
+%PS%
+%PS1%
+
+# --- Backup files ---
+*.bak_*
