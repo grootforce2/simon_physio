@@ -43,7 +43,6 @@ flutter:
     - assets\seed\exercises_seed_v1.json
     - assets/images/
     - assets/videos/
-    - assets/images/
     - assets/icons/
     - assets/media/bundled/thumbs/
     - assets/media/bundled/previews/
